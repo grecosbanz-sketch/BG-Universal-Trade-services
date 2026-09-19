@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits - BG Universal</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #07182e;
+            color: white;
+        }
+
+        header {
+            padding: 20px 30px;
+            background: #061426;
+        }
+
+        .logo {
+            max-width: 150px;
+        border: 10px solid #F4A623;
+    transition: transform 0.3s;}
+
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 50px 30px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+
+        .produits-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .produit-card {
+            background: white;
+            color: #07182e;
+            width: 260px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .prix {
+            font-weight: bold;
+            font-size: 22px;
+            margin: 15px 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #f5b82e;
+            color: #07182e;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+        }
+    .logo:hover {
+    transform: translateY(-2px);</style>
+</head>
+
+<body>
+
+<header>
+    <a href="/">
+        <img src="/images/logo-bg-universal-new.png" alt="BG Universal" class="logo">
+    </a>
+</header>
+
+<main>
+    <h1>Nos produits</h1>
+
+    <div class="produits-container">
+
+        <div class="produit-card">
+            <h2>Produit 1</h2>
+            <p>Description du premier produit.</p>
+            <div class="prix">29,99 €</div>
+            <a href="produit-detail.html" class="button">Voir le produit</a>
+        </div>
+
+        <div class="produit-card">
+            <h2>Produit 2</h2>
+            <p>Description du deuxième produit.</p>
+            <div class="prix">49,99 €</div>
+            <a href="/produit-detail-2.html" class="button">Voir le produit</a>
+        </div>
+
+        <div class="produit-card">
+            <h2>Produit 3</h2>
+            <p>Description du troisième produit.</p>
+            <div class="prix">69,99 €</div>
+            <a href="/produit-detail-3.html" class="button">Voir le produit</a>
+        </div>
+
+    </div>
+</main>
+
+</body>
+</html>
