@@ -8,6 +8,27 @@
     <title>BG Universal | Trade Services</title>
 
     <style>
+        .trade-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 25px;
+}
+
+.trade-line .line {
+    width: 70px;
+    height: 2px;
+    background: #d4af37;
+    display: inline-block;
+}
+
+.trade-line .trade-text {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #d4af37;
+}
         * {
             box-sizing: border-box;
         }
@@ -94,6 +115,9 @@
             text-decoration: none;
             font-weight: bold;
         }
+.button:hover {
+    opacity: 0.9;
+}
 
         #services {
             padding: 70px 8%;
@@ -231,7 +255,11 @@ margin-left: 0px;
 <section class="hero" id="accueil">
 
     <h1>BG <span>UNIVERSAL</span></h1>
-
+<div class="trade-line">
+    <span class="line"></span>
+    <span class="trade-text">TRADE SERVICES</span>
+    <span class="line"></span>
+</div>
     <h2>Votre partenaire pour un commerce sans frontières</h2>
 
     <p>
